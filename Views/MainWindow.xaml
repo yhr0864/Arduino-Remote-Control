@@ -1,0 +1,11 @@
+﻿<Window x:Class="MyArduinoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Arduino Controller" Height="200" Width="400"
+        Loaded="Window_Loaded">
+    <StackPanel Margin="10">
+        <TextBox x:Name="CommandInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Margin="0,0,0,40"/>
+        <Button Content="Send Command" HorizontalAlignment="Center" VerticalAlignment="Center" Click="SendCommand_Click"/>
+        <TextBlock x:Name="ResponseOutput" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,40,0,0" Text="Feedback will appear here." />
+    </StackPanel>
+</Window>

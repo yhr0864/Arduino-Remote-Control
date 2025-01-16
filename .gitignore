@@ -1,0 +1,74 @@
+# Visual Studio
+.vs/
+
+# Build directories
+bin/
+obj/
+
+# WPF-specific files
+*.g.i.cs
+*.g.cs
+*.cache
+*.db
+*.tlog
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated project files
+Generated\ Files/
+*.appxrecipe
+*.appxbundle
+*.builds
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+*.log.xml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Rider/JetBrains files
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Windows-specific files
+Thumbs.db
+*.DS_Store
+
+# Backup and metadata files
+*.bak
+*.old
+*.orig
+*.rej
+
+# Publish output
+publish/
+*.publishsettings
+
+# Configuration
+appsettings*.json
+
+# Optional: Include additional dependencies or files as needed
+# If using .NET Core/5+/6+:
+!.gitignore
+*.deps.json
+*.runtimeconfig.json
+
+# Other
+*.ilk
+*.pdb
+*.idb
+*.ipch
+
+# Exclude files specific to your environment here
